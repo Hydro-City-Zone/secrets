@@ -9,10 +9,10 @@ let enterPassword = async () => {
 
   let page = await fetch(`${prefix}${password}/index.html`).then((res) => res.text())
 
-  if (page.includes("Error")) {
-    document.getElementById("Error").innerText = "Try again"
-  } else {
+  if (page.includes(`<meta name="description" content="ALTERFALL">`)) {
     document.getElementById("Error").innerText = ""
     window.location.href = `${prefix}${password}/index.html`;
+  } else {
+    document.getElementById("Error").innerText = "Try again"
   }
 }
