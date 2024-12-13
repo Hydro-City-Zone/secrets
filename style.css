@@ -1,0 +1,55 @@
+@import url("https://mspfa.com/css/?s=41577");
+
+body {
+  background-color: #222;
+}
+
+#main {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Intro */
+
+#callieComp {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 2em;
+  background-color: black;
+
+  width: 100%;
+  aspect-ratio: 4 / 3;
+
+  border-radius: 2em;
+  border: solid #310303 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#password {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.link {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+
+  display: block;
+  margin: 0.5em auto;
+}
+
+#Error {
+  color: red
+}
+
+/* OTHER PAGES */
+
+.page {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
