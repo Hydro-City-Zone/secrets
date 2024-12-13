@@ -11,7 +11,7 @@ let enterPassword = async () => {
 
   if (page.includes(`<meta name="description" content="ALTERFALL">`)) {
     document.getElementById("Error").innerText = ""
-    window.location.href = `${prefix}${password}/index.html`;
+    window.location.href = `${prefix}${password}`;
   } else {
     document.getElementById("Error").innerText = "Try again"
   }
