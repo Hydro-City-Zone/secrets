@@ -13,6 +13,7 @@ let enterPassword = async () => {
     document.getElementById("Error").innerText = ""
     window.location.href = `${prefix}${password}`;
   } else {
-    document.getElementById("Error").innerText = "Try again"
+    // document.getElementById("Error").innerText = "Try again"
   }
 }
+
