@@ -31,6 +31,11 @@ body {
 #password {
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-bottom: solid black;
+  background-color: transparent;
 }
 
 .link {
@@ -40,6 +45,7 @@ body {
 
   display: block;
   margin: 0.5em auto;
+  border: none;
 }
 
 #Error {
