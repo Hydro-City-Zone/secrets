@@ -4,7 +4,7 @@ if (window.location.href.includes("127.0.0.1")) {
 }
 
 let enterPassword = async () => {
-  const password = document.getElementById("password").value
+  const password = document.getElementById("password").value.toUpperCase()
   console.log(password)
 
   let page = await fetch(`${prefix}${password}/index.html`).then((res) => res.text())
